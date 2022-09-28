@@ -3,7 +3,7 @@ import { BsCheckCircleFill } from 'react-icons/bs';
 
 import SecondaryButton from '@/components/buttons/SecondaryButton';
 import creditCard from '@/images/illustrations/credit-card.png';
-import Community from '@/images/illustrations/Community.png';
+import Community from '@/images/illustrations/community.png';
 import { Fade } from 'react-reveal';
 
 export default function CreditCardSection() {
