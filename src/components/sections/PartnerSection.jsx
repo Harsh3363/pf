@@ -1,9 +1,6 @@
 import React from 'react';
 
-import partner1 from '@/images/partners/partner1.png';
-import partner2 from '@/images/partners/partner2.png';
-import partner3 from '@/images/partners/partner3.png';
-import partner4 from '@/images/partners/partner4.png';
+import partners from '@/images/partners/partners.png'
 import { Fade } from 'react-reveal';
 
 export default function PartnerSection() {
@@ -17,18 +14,19 @@ export default function PartnerSection() {
           </div>
           <div className="mx-4">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-              <Fade up >
-                <img src={partner1} className="basis-1/2" alt="" />
-              </Fade>
-              <Fade up delay={200}>
-                <img src={partner2} className="basis-1/2" alt="" />
-              </Fade>
-              <Fade up delay={400}>
-                <img src={partner3} className="basis-1/2" alt="" />
-              </Fade>
+             
               <Fade up delay={600}>
-                <img src={partner4} className="basis-1/2" alt="" />
-              </Fade>
+                <img src={partners} className="basis-1/2" alt=""  />
+              </Fade> 
+              <Fade up delay={600}>
+                <img src={partners} className="basis-1/2" alt=""  />
+              </Fade> 
+              <Fade up delay={600}>
+                <img src={partners} className="basis-1/2" alt=""  />
+              </Fade> 
+              <Fade up delay={600}>
+                <img src={partners} className="basis-1/2" alt=""  />
+              </Fade> 
             </div>
           </div>
         </div>

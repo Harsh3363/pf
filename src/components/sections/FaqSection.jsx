@@ -50,18 +50,16 @@ export default function FaqSection() {
               Frequently asked questions
             </h2>
             <div className="my-6">
-              <FaqItem open={true} title="Why should I choose NEFTG?">
-                We're industry pioneers, having been in the cryptocurrency industry since 2016. We've facilitated more than 21 billion USD worth of transactions on our exchange for customers in over 40 countries. Today, we're trusted by over 8 million customers around the world and have received praise for our easy-to-use app, secure wallet, and range of features.
+              <FaqItem open={true} title="What is EvoFinance?">
+              Evo finance/Evo token is a utility token focused on evolution of payment systems. our aim is to provide passive income and financial freedom to holders.
               </FaqItem>
-              <FaqItem open={false} title="How secure is NEFTG?">
-                We're industry pioneers, having been in the cryptocurrency industry since 2016. We've facilitated more than 21 billion USD worth of transactions on our exchange for customers in over 40 countries. Today, we're trusted by over 8 million customers around the world and have received praise for our easy-to-use app, secure wallet, and range of features.
+              <FaqItem open={false} title="Is team doxxed? what about liquidity?">
+              No, we are privately doxxed to the Brise team and doxxed among us. The team   which is working on our future projects will be doxxed to the public including the social media handels At present liquidity is locked for 10 years
               </FaqItem>
-              <FaqItem open={false} title="Do I have to buy a whole Bitcoin?">
-                We're industry pioneers, having been in the cryptocurrency industry since 2016. We've facilitated more than 21 billion USD worth of transactions on our exchange for customers in over 40 countries. Today, we're trusted by over 8 million customers around the world and have received praise for our easy-to-use app, secure wallet, and range of features.
+              <FaqItem open={false} title="How 1000% fixed APY is sustainable?">
+              The apy is sustainable because of the future projects. you can read about our upcoming projects in roadmap
               </FaqItem>
-              <FaqItem open={false} title="How do I actually buy Bitcoin?">
-                We're industry pioneers, having been in the cryptocurrency industry since 2016. We've facilitated more than 21 billion USD worth of transactions on our exchange for customers in over 40 countries. Today, we're trusted by over 8 million customers around the world and have received praise for our easy-to-use app, secure wallet, and range of features.
-              </FaqItem>
+           
             </div>
           </div>
         </div>

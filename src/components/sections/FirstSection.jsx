@@ -7,7 +7,7 @@ import BlueCircleParticle from '../particles/BlueCircleParticle';
 import OrangeCircleParticle from '../particles/OrangeCircleParticle';
 import StarParticle from '../particles/StarParticle';
 import PurpleCircleParticle from '../particles/PurpleCircleParticle';
-import DropdownButton from '../buttons/DropdownButton';
+import SecondaryButton from "../buttons/SecondaryButton"
 
 export default function HeroSection() {
   return (
@@ -23,32 +23,22 @@ export default function HeroSection() {
 
             <p className='text-primary'>SIGN UP TODAY</p>
             <h1 className='text-4xl md:text-5xl lg:text-6xl font-bold leading-normal'>
-              The World’s <br />
-              <span className='text-blue-gradient'>Fastest Growing</span> <br />
-              Crypto Web App
+            Mapping the way to<br />
+              <span className='text-blue-gradient'>Financial Freedom</span> <br />
+             
             </h1>
             <div className="mt-4 mb-8">
-              <p className="text-gray">Buy and sell 200+ cryptocurrencies with 20+ flat currencies using</p>
+              <p className="text-gray">Evo Finance is a community driven platform promoting financial well-being to all people of all ages and cultures to be in control of their money and create their own wealth opportunities. It is built on Brise blockchain (BRC-20) with a smart codes that makes it safe to invest and beneficial to hold</p>
               <p className="text-gray">bank transfers or your credit/debit card.</p>
             </div>
             <div className="col-span-2 lg:flex gap-4 lg:mb-12">
               <PrimaryButton className="w-full lg:w-auto mb-2 lg:mb-0">
-                Get Started
+                Buy Token
               </PrimaryButton>
-              <DropdownButton name="Download App" className="w-full lg:w-auto">
-                <a href="/download/windows" target="_blank" className="w-full hover:bg-primary px-6 pt-4 pb-2 block hover:text-white">
-                  <FaWindows className='inline mr-2' /> Windows
-                </a>
-                <a href="/download/linux" target="_blank" className="w-full hover:bg-primary px-6 py-2 block hover:text-white">
-                  <FaLinux className='inline mr-2' /> Linux
-                </a>
-                <a href="/download/android" target="_blank" className="w-full hover:bg-primary px-6 py-2 block hover:text-white">
-                  <FaAndroid className='inline mr-2' /> Android
-                </a>
-                <a href="/download/ios" target="_blank" className="w-full hover:bg-primary px-6 pb-4 pt-2 block hover:text-white">
-                  <FaAppStore className='inline mr-2' /> IOS
-                </a>
-              </DropdownButton>
+              <SecondaryButton className="w-full lg:w-auto mb-2 lg:mb-0">
+               White Paper
+              </SecondaryButton>
+             
             </div>
           </div>
         </div>

@@ -5,7 +5,7 @@ import contributor from '@/images/illustrations/contributor.png';
 import PrimaryButton from '@/components/buttons/PrimaryButton';
 import Select from '@/components/Select';
 
-export default function BuyAndTradeSection() {
+export default function Contribute() {
 
   const formHandler = (e) => {
     e.preventDefault();

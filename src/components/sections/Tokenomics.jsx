@@ -4,7 +4,7 @@ import { BsCheckCircleFill } from 'react-icons/bs';
 import banks from '@/images/illustrations/banks.png';
 import { Fade } from 'react-reveal';
 
-export default function SecuritySection() {
+export default function Tokenomics() {
   return (
     <section className="container mx-auto py-32">
       <div className="grid md:grid-cols-2">
@@ -22,28 +22,28 @@ export default function SecuritySection() {
               <li className='mb-6'>
                 <span>
                   <BsCheckCircleFill className='text-primary inline mr-2' />
-                  Safety, security and compliance
+                  Positive Rebase
                 </span>
                 <p className="text-gray">
-                  NEFTG is a licensed New York trust company that undergoes regular bank exams and is subject to the cybersecurity audits conducted by the New York Department of Financial Services. Learn more about our commitment to security.
+                5% of the trading fees is directed to the Reserve which helps sustain and back the Staking Rewards provided by the Positive Rebase.
                 </p>
               </li>
               <li className='mb-6'>
                 <span>
                   <BsCheckCircleFill className='text-primary inline mr-2' />
-                  Hardware security keys
+                  Collateral value
                 </span>
                 <p className="text-gray">
-                  With NEFTG you can secure your account with a hardware security key via WebAuthn.
+                5% of the trading fees goes to backing the liquidity of the pair ensuring an ever-increasing collateral value.
                 </p>
               </li>
               <li className='mb-6'>
                 <span>
                   <BsCheckCircleFill className='text-primary inline mr-2' />
-                  SOC Certifications
+                  Reserve value
                 </span>
                 <p className="text-gray">
-                NEFTG is SOC 1 Type 2 and SOC 2 Type 2 compliant. We are the world’s first cryptocurrency exchange and custodian to complete these exams.
+                4% of the buys and 8% of the sales go directly to the treasury which supports the Reserve value
                 </p>
               </li>
             </ul>

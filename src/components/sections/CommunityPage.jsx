@@ -6,7 +6,7 @@ import creditCard from '@/images/illustrations/credit-card.png';
 import Community from '@/images/illustrations/community.png';
 import { Fade } from 'react-reveal';
 
-export default function CreditCardSection() {
+export default function CommunityPage() {
   return (
     <section className="container mx-auto py-32">
       <div className="grid md:grid-cols-2 gap-6">
@@ -18,7 +18,7 @@ export default function CreditCardSection() {
         <div className="flex justify-center">
           <div className="max-w-md">
             <h2 className="font-bold text-4xl mb-6 leading-normal">
-              Introducing the <span className="text-blue-gradient">NEFTG</span> <br /> Community
+              Introducing the <span className="text-blue-gradient">EvoFinance</span> <br /> Community
             </h2>
             <p className='text-gray'>Vitae turpis massa sed elementum tempus egestas sed. L eu consequatac felis donec et odio. Donecmassa sapien faucibus et molestie.</p>
 
@@ -38,7 +38,7 @@ export default function CreditCardSection() {
             </ul>
 
             <SecondaryButton>
-              Join the Community
+             <a href="https://tttttt.me/evofinances">Telegram</a>
             </SecondaryButton>
           </div>
         </div>

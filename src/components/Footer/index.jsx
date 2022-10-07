@@ -86,7 +86,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="text-center py-6">
-        <p className="text-gray">© Copyright 2022 NEFTG LLC. All rights reserved</p>
+        <p className="text-gray">© Copyright 2022 EvoFinance LLC. All rights reserved</p>
         
       </div>
     </footer>
