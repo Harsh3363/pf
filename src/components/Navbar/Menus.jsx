@@ -1,11 +1,13 @@
 import React from 'react';
 
+import { Link } from 'react-scroll'
+
 
 export default function Menus() {
   return (
     <>
       <div className="w-full">
-        <a href="/" className='hover:text-primary py-2 block'>RoadMap</a>
+        <Link to="community" spy={true} smooth={true} offset={50} duration={500} href="/" className='hover:text-primary py-2 block'>RoadMap</Link>
       </div>
       <div className="w-full">
         <a href="/" className='hover:text-primary py-2 block'>Documentation</a>
