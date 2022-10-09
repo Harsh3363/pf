@@ -7,10 +7,8 @@ export default defineConfig({
   resolve: {
     alias:[{
       find: '@',
-      replacement:  path.resolve(__dirname, '/src')
+      replacement:  path.resolve(__dirname, './src')
     }]
   },
   plugins: [react()]
 })
-
-// __dirname, '/src' or C:/Users/admin/Desktop/intern/neftg/src
