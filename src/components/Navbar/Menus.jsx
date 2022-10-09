@@ -27,14 +27,14 @@ export default function Menus() {
           <a href="" className='hover:text-primary py-2 block'>DEX</a>
         </div>
     
-        <div className="w-full">
+        {/* <div className="w-full">
           <a   href="" className='hover:text-primary py-2 block'>Casino</a>
         </div>
     
         <div className="w-full">
           <a  href="" className='hover:text-primary py-2 block'>FAQ's</a>
         </div>
-    
+     */}
     </>
   );
 }
