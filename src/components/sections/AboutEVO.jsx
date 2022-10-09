@@ -1,12 +1,10 @@
 import React from 'react';
+import { BsCheckCircleFill } from 'react-icons/bs';
 import { Fade } from 'react-reveal';
 
-import buyIcon from '@/images/illustrations/buy.png';
-import PrimaryButton from '@/components/buttons/PrimaryButton';
-import Select from '@/components/Select';
 import faq from '@/images/illustrations/faq.png';
 
-export default function AboutNFTG() {
+export default function AboutEVO() {
 
   const formHandler = (e) => {
     e.preventDefault();
@@ -25,10 +23,10 @@ export default function AboutNFTG() {
             <p className="text-gray mb-6">EVO is a BRC-20 token with an elastic supply which rewards its holders with a positive rebase formula, thus creating the Auto-Staking and Auto-Compounding token.</p>
             <p className="text-gray mb-6">
               <ul>
-                <li>• Evo Finance DeFi with the Auto-staking Protocol or a new financial protocol that makes staking easier, and gives rewards in tokens to holders the stable returns in crypto.</li>
-                <li>• Automatic staking and compounding features, gives Fixed APY of 1000% annually.</li>
-                <li>• We provide auto staking right in your wallet when you purchase Evo token. No need to move your tokens to our website. From the minute you buy, you are staked, and set to receive rebase rewards. The easiest auto-staking in DeFi.</li>
-                <li>• The Evo Auto-staking Protocol pays every 24 Hours
+                <li><BsCheckCircleFill className='text-primary inline mr-2' /> Evo Finance DeFi with the Auto-staking Protocol or a new financial protocol that makes staking easier, and gives rewards in tokens to holders the stable returns in crypto.</li>
+                <li><BsCheckCircleFill className='text-primary inline mr-2' /> Automatic staking and compounding features, gives Fixed APY of 1000% annually.</li>
+                <li><BsCheckCircleFill className='text-primary inline mr-2' /> We provide auto staking right in your wallet when you purchase Evo token. No need to move your tokens to our website. From the minute you buy, you are staked, and set to receive rebase rewards. The easiest auto-staking in DeFi.</li>
+                <li><BsCheckCircleFill className='text-primary inline mr-2' /> The Evo Auto-staking Protocol pays every 24 Hours
 </li>
               </ul>
             </p>

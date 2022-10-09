@@ -24,7 +24,7 @@ export default function FutureProjects() {
                     No One Loses Their Initial Deposit
                     Even if you don’t win, keep all of your money!</p>
                     <br />
-                  <p className='text-gray'>The instructions and rules will be announced once the Game is live, click on Learn more to get latest updates</p>
+                  <p className='text-gray'>The instructions and rules will be announced once the Game is live, click on Learn more to get latest updates.</p>
                   <br />
                   {/* <ul>
                     <p className='text-gray'>NFT’S:-</p>

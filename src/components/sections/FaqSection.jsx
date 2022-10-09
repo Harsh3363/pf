@@ -20,7 +20,7 @@ const FaqItem = ({ open, title, children }) => {
   });
 
   return (
-    <div className='mb-3 border-b border-lightgray pb-3' >
+    <div id="faq" className='mb-3 border-b border-lightgray pb-3' >
       <div className='flex justify-between py-3 cursor-pointer hover:text-primary' onClick={() => setIsOpen(!isOpen)}>
         {title}
         <BsChevronUp className={iconClass} />
