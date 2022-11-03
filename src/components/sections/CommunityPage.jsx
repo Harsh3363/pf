@@ -19,17 +19,17 @@ export default function CommunityPage() {
             <h2 className="font-bold text-4xl mb-6 leading-normal">
               Introducing the <span className="text-blue-gradient">EvoFinance</span> <br /> Community
             </h2>
-            <p className='text-gray'>Vitae turpis massa sed elementum tempus egestas sed. L eu consequatac felis donec et odio. Donecmassa sapien faucibus et molestie.</p>
+            {/* <p className='text-gray'>Vitae turpis massa sed elementum tempus egestas sed. L eu consequatac felis donec et odio. Donecmassa sapien faucibus et molestie.</p> */}
 
             <ul className="my-6">
               <li className='mb-2'>
                 <BsCheckCircleFill className='text-primary inline mr-2' />
                 Join our community
               </li>
-              <li className='mb-2'>
+              {/* <li className='mb-2'>
                 <BsCheckCircleFill className='text-primary inline mr-2' />
                 250k+ members across globe
-              </li>
+              </li> */}
               <li className='mb-2'>
                 <BsCheckCircleFill className='text-primary inline mr-2' />
                 Explore the EvoFinance World

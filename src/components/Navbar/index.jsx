@@ -57,14 +57,14 @@ export default function Navbar() {
             <Menus />
           </div>
         </div>
-        <div className="hidden gap-4 md:flex">
+        {/* <div className="hidden gap-4 md:flex">
           <SecondaryButton>
             Log In
           </SecondaryButton>
           <PrimaryButton>
             Sign Up
           </PrimaryButton>
-        </div>
+        </div> */}
         <div className="md:hidden text-2xl">
           <button className="z-50 p-4 block transition-all" onClick={() => setDropdownOpen(!dropdownOpen)}>
             {dropdownOpen ?

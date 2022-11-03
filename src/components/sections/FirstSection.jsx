@@ -1,7 +1,8 @@
 import React from 'react';
 import { FaWindows, FaLinux, FaAppStore, FaAndroid } from 'react-icons/fa';
 
-import globoCrypto from '@/images/illustrations/globe.png';
+// import globoCrypto from '@/images/illustrations/globe.png';
+import globoCryptoupdated from '@/images/illustrations/globe_updated-removebg.png';
 import PrimaryButton from '@/components/buttons/PrimaryButton';
 import BlueCircleParticle from '../particles/BlueCircleParticle';
 import OrangeCircleParticle from '../particles/OrangeCircleParticle';
@@ -18,10 +19,10 @@ export default function HeroSection() {
       <div className="container px-4 mx-auto grid md:grid-cols-2">
         <div className='flex items-center'>
           <div className='relative'>
-            <StarParticle className="absolute top-0 right-0" />
+            {/* <StarParticle className="absolute top-0 right-0" /> */}
             <PurpleCircleParticle className="absolute bottom-0 -left-12" />
 
-            <p className='text-primary'>SIGN UP TODAY</p>
+            {/* <p className='text-primary'>SIGN UP TODAY</p> */}
             <h1 className='text-4xl md:text-5xl lg:text-6xl font-bold leading-normal'>
             Mapping the way to<br />
               <span className='text-blue-gradient'>Financial Freedom</span> <br />
@@ -46,7 +47,7 @@ export default function HeroSection() {
           <BlueCircleParticle className="absolute top-0 left-11 duration-[5s]" />
           <OrangeCircleParticle className="absolute bottom-1/4 right-0" />
 
-          <img src={globoCrypto} alt="Globe" />
+          <img src={globoCryptoupdated} alt="Globe" />
         </div>
       </div>
     </section >

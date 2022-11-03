@@ -25,7 +25,7 @@ export default function Tokenomics() {
                   Positive Rebase
                 </span>
                 <p className="text-gray">
-                5% of the trading fees is directed to the Reserve which helps sustain and back the Staking Rewards provided by the Positive Rebase.
+                6% of the buys and 8% of the sales go directly to the Reserve
                 </p>
               </li>
               <li className='mb-6'>
@@ -34,7 +34,7 @@ export default function Tokenomics() {
                   Collateral value
                 </span>
                 <p className="text-gray">
-                5% of the trading fees goes to backing the liquidity of the pair ensuring an ever-increasing collateral value.
+                2% of the trading fees goes to backing the liquidity of the pair ensuring an ever-increasing collateral value.
                 </p>
               </li>
               <li className='mb-6'>
@@ -43,7 +43,7 @@ export default function Tokenomics() {
                   Reserve value
                 </span>
                 <p className="text-gray">
-                4% of the buys and 8% of the sales go directly to the treasury which supports the Reserve value
+                6% of the buys and 8% of the sales go directly to the treasury which supports the Reserve value
                 </p>
               </li>
             </ul>

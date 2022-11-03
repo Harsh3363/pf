@@ -1,7 +1,10 @@
 import React from 'react';
 
-import partners from '@/images/partners/partners.png'
+import partners from '@/images/partners/partner.png'
 import { Fade } from 'react-reveal';
+import owl_game from '@/images/partners/owl_games.jpeg'
+import centcex from '@/images/partners/centcex.png'
+import twinmaps from '@/images/partners/twinmaps.png'
 
 export default function PartnerSection() {
   return (
@@ -19,13 +22,13 @@ export default function PartnerSection() {
                 <img src={partners} className="basis-1/2" alt=""  />
               </Fade> 
               <Fade up delay={600}>
-                <img src={partners} className="basis-1/2" alt=""  />
+                <img src={owl_game} className="basis-1/2" alt=""  />
               </Fade> 
               <Fade up delay={600}>
-                <img src={partners} className="basis-1/2" alt=""  />
+                <img src={centcex} className="basis-1/2" alt=""  />
               </Fade> 
               <Fade up delay={600}>
-                <img src={partners} className="basis-1/2" alt=""  />
+                <img src={twinmaps} className="basis-1/2" alt=""  />
               </Fade> 
             </div>
           </div>

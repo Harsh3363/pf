@@ -11,12 +11,12 @@ export default function Menus() {
       {/* <div className="w-full">
         <a href="/" className='hover:text-primary py-2 block'>RoadMap</a>
       </div> */}
-      <div className="w-full">
+      {/* <div className="w-full">
         <Link to="community" spy={true}  offset={500} duration={500} href="/" className='hover:text-primary py-2 block'>Documentation</Link>
       </div>
       <div className="w-full">
         <Link to="community" spy={true} offset={500} duration={500} href="/" className='hover:text-primary py-2 block'>Tools</Link>
-      </div>
+      </div> */}
       <div className="w-full">
         <Link to="community" spy={true} offset={500} duration={500} href="/" className='hover:text-primary py-2 block'>App</Link>
       </div>

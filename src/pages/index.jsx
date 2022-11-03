@@ -21,7 +21,7 @@ export default function index() {
       <AboutEVO />
       <PartnerSection />
       <CommunityPage />
-      <FutureProjects />
+      {/* <FutureProjects /> */}
       <Tokenomics />
       <StepSection />
       <FaqSection />
