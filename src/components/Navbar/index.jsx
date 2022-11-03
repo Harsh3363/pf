@@ -82,14 +82,14 @@ export default function Navbar() {
           })}>
             <div className="h-screen left-0 bg-black bg-opacity-30" onClick={handleBlackScreenClick}>
               <div className="z-20 shadow-xl bg-white p-6">
-                <div className="gap-4 flex mb-6">
+                {/* <div className="gap-4 flex mb-6">
                   <SecondaryButton className="w-full">
                     Log In
                   </SecondaryButton>
                   <PrimaryButton className="w-full">
                     Sign Up
                   </PrimaryButton>
-                </div>
+                </div> */}
                 <div className="mb-4">
                   <Menus />
                 </div>
