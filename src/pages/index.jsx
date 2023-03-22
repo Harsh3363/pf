@@ -12,11 +12,15 @@ import Tokenomics from '@/components/sections/Tokenomics';
 import StepSection from '@/components/sections/StepSection';
 import FaqSection from '@/components/sections/FaqSection';
 import BackToTopSection from '@/components/sections/BackToTopSection';
+import WalletCard from '@/components/sections/WalletCard';
+import OurTeam from '@/components/sections/OurTeam';
+import Documents from '@/components/sections/Documents';
 
 export default function index() {
   return (
     <Layout>
       <FirstSection />
+      <WalletCard/>
       <Contribute />
       <AboutEVO />
       <PartnerSection />
@@ -24,7 +28,9 @@ export default function index() {
       {/* <FutureProjects /> */}
       <Tokenomics />
       <StepSection />
+      <Documents/>
       <FaqSection />
+      <OurTeam/>
       <BackToTopSection />
     </Layout>
   );
