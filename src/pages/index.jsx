@@ -15,22 +15,24 @@ import BackToTopSection from '@/components/sections/BackToTopSection';
 import WalletCard from '@/components/sections/WalletCard';
 import OurTeam from '@/components/sections/OurTeam';
 import Documents from '@/components/sections/Documents';
+import Roadmap from '@/components/sections/Roadmap';
 
 export default function index() {
   return (
     <Layout>
       <FirstSection />
       <WalletCard/>
-      <Contribute />
       <AboutEVO />
-      <PartnerSection />
+      <Contribute />
+      <Roadmap/>
       <CommunityPage />
       {/* <FutureProjects /> */}
       <Tokenomics />
-      <StepSection />
       <Documents/>
       <FaqSection />
+      <StepSection />
       <OurTeam/>
+      <PartnerSection />
       <BackToTopSection />
     </Layout>
   );
