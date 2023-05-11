@@ -1,6 +1,4 @@
 import React from 'react';
-
-
 import Layout from '@/components/Layout';
 import FirstSection from '@/components/sections/FirstSection';
 import AboutPepe from '@/components/sections/AboutPepe';
@@ -11,8 +9,7 @@ import How_buy from '@/components/sections/How_buy';
 import BackToTopSection from '../components/sections/BackToTopSection';
 
 export default function index() {
-  return (<>
-  <h1>cfnoijewqfnjuoewqjfnuoewqjhfuoi</h1>
+  return (
     <Layout>
       <FirstSection />
       <AboutPepe />
@@ -22,6 +19,5 @@ export default function index() {
       <PartnerSection />
       <BackToTopSection/>
     </Layout>
-  </>
   );
 }
