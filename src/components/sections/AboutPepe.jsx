@@ -1,5 +1,4 @@
 import React from 'react';
-import { BsCheckCircleFill } from 'react-icons/bs';
 import { Fade } from 'react-reveal';
 
 import pepe2 from '@/images/pepe2.webp';

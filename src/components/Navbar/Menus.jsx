@@ -13,22 +13,21 @@ export default function Menus() {
         <Link to="community" spy={true} offset={500} duration={500} href="/" className='hover:text-[#1E714C] py-2 block'>Price</Link>
       </div>
       <div className="w-full">
-        <Link
-          to="Tokenomics"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={500}
-          href="../sections//Tokenomics.jsx"
-          className='hover:text-[#1E714C] py-2 block'
-        >
+        <Link to="Tokenomics" spy={true} smooth={true} offset={15} duration={500} href="../sections//Tokenomics.jsx" className='hover:text-[#1E714C] py-2 block'
+         animateScroll={() => {
+          // Scroll to the Tokenomics section
+          window.scrollTo('#tokenomics', {
+            smooth: true,
+            speed: 100,
+          });
+        }}>
           Tokenomics
         </Link>
       </div>
 
       <div className="w-full">
         <Link
-          to="faq" spy={true} offset={500} duration={1000}
+          to="../sections//How_buy.jsx" spy={true} offset={500} duration={1000}
           href="../sections//StepSection.jsx" className='hover:text-[#1E714C] py-2 block'>
           Home
         </Link>
@@ -39,9 +38,9 @@ export default function Menus() {
       <div className="w-full">
         <Link to="faq" spy={true} offset={10} duration={1000} href="../sections//FaqSection.jsx" className='hover:text-[#1E714C] py-2 block'>Roadmap</Link>
       </div>
-      
+
       <div className="w-full">
-        <a  offset={10} duration={1000} href="https://twitter.com/Pepefunds" className='hover:text-[#1E714C] py-2 block'>
+        <a offset={10} duration={1000} href="https://twitter.com/Pepefunds" className='hover:text-[#1E714C] py-2 block'>
           <TiSocialTwitter size={30}
             onMouseOver={({ target }) => target.style.color = " #1E714C"}
             onMouseOut={({ target }) => target.style.color = "1da1f2"}
@@ -51,14 +50,14 @@ export default function Menus() {
         </a>
       </div>
       <div className="w-full">
-        <a  offset={10} duration={1000} href="https://t.me/pepefunds" className='hover:text-[#1E714C] py-2 block'>
+        <a offset={10} duration={1000} href="https://t.me/pepefunds" className='hover:text-[#1E714C] py-2 block'>
           <FaTelegram size={28}
             onMouseOver={({ target }) => target.style.color = "#1E714C"}
             onMouseOut={({ target }) => target.style.color = "0088cc"}
           />
         </a>
       </div>
-      
+
 
     </>
   );

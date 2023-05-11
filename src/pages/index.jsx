@@ -11,7 +11,8 @@ import How_buy from '@/components/sections/How_buy';
 import BackToTopSection from '../components/sections/BackToTopSection';
 
 export default function index() {
-  return (
+  return (<>
+  <h1>cfnoijewqfnjuoewqjfnuoewqjhfuoi</h1>
     <Layout>
       <FirstSection />
       <AboutPepe />
@@ -21,5 +22,6 @@ export default function index() {
       <PartnerSection />
       <BackToTopSection/>
     </Layout>
+  </>
   );
 }
