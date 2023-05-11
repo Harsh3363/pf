@@ -4,7 +4,7 @@ import { Fade } from 'react-reveal';
 
 import pepe2 from '@/images/pepe2.webp';
 
-export default function AboutEVO() {
+export default function AboutPepe() {
 
   const formHandler = (e) => {
     e.preventDefault();

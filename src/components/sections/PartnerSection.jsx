@@ -12,8 +12,8 @@ export default function PartnerSection() {
         <div className="container mx-auto">
           <div className="text-center mb-4">
             {/* <p className='text-silver text-xs'>OUR FRIENDS</p> */}
-            <h2 class="text-3xl font-bold text-left">
-              <u class="text-green"> CONTACT</u>
+            <h2 className="text-3xl font-bold text-left">
+              <u className="text-green"> CONTACT</u>
             </h2>
             {/* <p className='text-gray'>We're partners with countless major organisations around the globe</p> */}
           </div>

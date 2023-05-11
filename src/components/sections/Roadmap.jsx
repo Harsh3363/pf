@@ -7,18 +7,18 @@ export default function Roadmap() {
 
       <div className="grid md:grid-cols-2">
       
-        <div class="w-10/12 md:w-7/12 lg:6/12 mx-auto relative py-20">
-          <h1 class="text-6xl text-center font-bold text-blue-500">Roadmap</h1>
-          <div class="border-l-2 mt-10">
+        <div className="w-10/12 md:w-7/12 lg:6/12 mx-auto relative py-20">
+          <h1 className="text-6xl text-center font-bold text-blue-500">Roadmap</h1>
+          <div className="border-l-2 mt-10">
 
-            <div class="transform transition cursor-pointer hover:-translate-y-2 ml-10 relative flex items-center px-6 py-4 bg-blue text-black rounded mb-10 flex-col md:flex-row space-y-4 md:space-y-0">
+            <div className="transform transition cursor-pointer hover:-translate-y-2 ml-10 relative flex items-center px-6 py-4 bg-blue text-black rounded mb-10 flex-col md:flex-row space-y-4 md:space-y-0">
 
-              <div class="w-5 h-5 bg-blue absolute -left-10 transform -translate-x-2/4 rounded-full z-10 mt-2 md:mt-0"></div>
+              <div className="w-5 h-5 bg-blue absolute -left-10 transform -translate-x-2/4 rounded-full z-10 mt-2 md:mt-0"></div>
 
-              <div class="w-10 h-1 bg-blue absolute -left-10 z-0"></div>
+              <div className="w-10 h-1 bg-blue absolute -left-10 z-0"></div>
 
-              <div class="flex-auto">
-                <h1 class="text-3xl">Phase 1 :</h1>
+              <div className="flex-auto">
+                <h1 className="text-3xl">Phase 1 :</h1>
                 <ul>
 
                   <h3>•	Launch</h3>
@@ -28,14 +28,14 @@ export default function Roadmap() {
                 </ul>
               </div></div>
 
-            <div class="transform transition cursor-pointer hover:-translate-y-2 ml-10 relative flex items-center px-6 py-4 bg-pink-600 text-black rounded mb-10 flex-col md:flex-row space-y-4 md:space-y-0">
+            <div className="transform transition cursor-pointer hover:-translate-y-2 ml-10 relative flex items-center px-6 py-4 bg-pink-600 text-black rounded mb-10 flex-col md:flex-row space-y-4 md:space-y-0">
 
-              <div class="w-5 h-5 bg-pink-600 absolute -left-10 transform -translate-x-2/4 rounded-full z-10 mt-2 md:mt-0"></div>
+              <div className="w-5 h-5 bg-pink-600 absolute -left-10 transform -translate-x-2/4 rounded-full z-10 mt-2 md:mt-0"></div>
 
-              <div class="w-10 h-1 bg-pink-300 absolute -left-10 z-0"></div>
+              <div className="w-10 h-1 bg-pink-300 absolute -left-10 z-0"></div>
 
-              <div class="flex-auto">
-                <h1 class="text-3xl">Phase 2 :</h1>
+              <div className="flex-auto">
+                <h1 className="text-3xl">Phase 2 :</h1>
                 <ul>
 
                   <h3>•	Staking </h3>
@@ -45,14 +45,14 @@ export default function Roadmap() {
               </div>
             </div>
 
-            <div class="transform transition cursor-pointer hover:-translate-y-2 ml-10 relative flex items-center px-6 py-4 bg-green text-black rounded mb-10 flex-col md:flex-row space-y-4 md:space-y-0">
+            <div className="transform transition cursor-pointer hover:-translate-y-2 ml-10 relative flex items-center px-6 py-4 bg-green text-black rounded mb-10 flex-col md:flex-row space-y-4 md:space-y-0">
 
-              <div class="w-5 h-5 bg-green absolute -left-10 transform -translate-x-2/4 rounded-full z-10 mt-2 md:mt-0"></div>
+              <div className="w-5 h-5 bg-green absolute -left-10 transform -translate-x-2/4 rounded-full z-10 mt-2 md:mt-0"></div>
 
-              <div class="w-10 h-1 bg-green absolute -left-10 z-0"></div>
+              <div className="w-10 h-1 bg-green absolute -left-10 z-0"></div>
 
-              <div class="flex-auto">
-                <h1 class="text-3xl">Phase 3 :</h1>
+              <div className="flex-auto">
+                <h1 className="text-3xl">Phase 3 :</h1>
                 <ul>
 
                   <h3>•	PepeFunds Faucet </h3>
