@@ -16,24 +16,24 @@ import WalletCard from '@/components/sections/WalletCard';
 import OurTeam from '@/components/sections/OurTeam';
 import Documents from '@/components/sections/Documents';
 import Roadmap from '@/components/sections/Roadmap';
+import How_buy from '@/components/sections/How_buy';
 
 export default function index() {
   return (
     <Layout>
       <FirstSection />
-      <WalletCard/>
       <AboutEVO />
-      <Contribute />
+      <How_buy />
+      {/* <Contribute /> */}
       <Roadmap/>
-      <CommunityPage />
-      {/* <FutureProjects /> */}
       <Tokenomics />
-      <Documents/>
-      <FaqSection />
-      <StepSection />
+      {/* <FutureProjects /> */}
+      {/* <Documents/> */}
+      {/* <FaqSection />
       <OurTeam/>
+      <StepSection /> */}
       <PartnerSection />
-      <BackToTopSection />
+      {/* <BackToTopSection /> */}
     </Layout>
   );
 }

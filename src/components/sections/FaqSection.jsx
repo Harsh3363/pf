@@ -45,7 +45,7 @@ export default function FaqSection() {
         </div>
         <div className="flex justify-center">
           <div className="">
-            <span className="text-primary">SUPPORT</span>
+            <span className="text-primary">FAQ</span>
             <h2 className="font-bold text-4xl mb-6 leading-normal">
               Frequently asked questions
             </h2>

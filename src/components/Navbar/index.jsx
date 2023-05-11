@@ -4,8 +4,6 @@ import { BsList, BsX } from 'react-icons/bs';
 import { useMediaQuery } from 'react-responsive';
 
 import logo from '@/images/logo.png';
-import PrimaryButton from '@/components/buttons/PrimaryButton';
-import SecondaryButton from '@/components/buttons/SecondaryButton';
 import Menus from './Menus';
 
 export default function Navbar() {
@@ -48,15 +46,15 @@ export default function Navbar() {
 
   return (
     <nav className={classNames('fixed w-full transition-all duration-700 z-10 py-8 ', {
-      'bg-white shadow-lg !py-3': backgroundwhite
+      'bg-[#4C9540] shadow-lg !py-3': backgroundwhite
     })}>
       <div className="px-4 container mx-auto top-0 flex justify-between items-center">
         <div className="flex items-center">
-          <img src={logo} className="mr-6" alt="logo" width="100" height="100" />
-          <div className='hidden mx-4 gap-8 xl:flex'>
+          <a href="/"><img src={logo} className="mr-6" alt="logo" width="100" height="100" />PepeFund</a>
+        </div>
+          <div className='hidden mx-4 gap-8 xl:flex justify-end'>
             <Menus />
           </div>
-        </div>
         {/* <div className="hidden gap-4 md:flex">
           <SecondaryButton>
             Log In
