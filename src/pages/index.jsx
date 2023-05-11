@@ -8,6 +8,7 @@ import PartnerSection from '@/components/sections/PartnerSection';
 import Tokenomics from '@/components/sections/Tokenomics';
 import Roadmap from '@/components/sections/Roadmap';
 import How_buy from '@/components/sections/How_buy';
+import BackToTopSection from '../components/sections/BackToTopSection';
 
 export default function index() {
   return (
@@ -18,6 +19,7 @@ export default function index() {
       <Roadmap/>
       <Tokenomics />
       <PartnerSection />
+      <BackToTopSection/>
     </Layout>
   );
 }

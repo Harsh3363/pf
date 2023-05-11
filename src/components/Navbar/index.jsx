@@ -6,6 +6,7 @@ import { useMediaQuery } from 'react-responsive';
 import logo from '@/images/logo.png';
 import Menus from './Menus';
 
+
 export default function Navbar() {
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [backgroundwhite, setBackgroundWhite] = useState(false);
@@ -43,7 +44,6 @@ export default function Navbar() {
 
     return () => window.removeEventListener('scroll', handleWindowScroll);
   }, []);
-
   return (
     <nav className={classNames('fixed w-full transition-all duration-700 z-10 py-8 ', {
       'bg-[#4C9540] shadow-lg !py-3': backgroundwhite
