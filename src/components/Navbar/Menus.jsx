@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-scroll'
 import { TiSocialTwitter } from 'react-icons/ti'
 import { FaTelegram } from 'react-icons/fa'
-import PrimaryButton from '@/components/buttons/PrimaryButton';
 
 export default function Menus() {
   return (
