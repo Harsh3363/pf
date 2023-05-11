@@ -19,7 +19,7 @@ export default function PartnerSection() {
           </div>
           <div className="mx-4">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 " style={{ display: 'flex', justifyContent: 'center' }}>
-              <a href="">
+              <a href="https://twitter.com/Pepefunds">
                 <Fade up delay={600}>
                   <TiSocialTwitter size={100}
                     onMouseOver={({ target }) => target.style.color = " #1da1f2"}
@@ -28,7 +28,7 @@ export default function PartnerSection() {
                   />
                 </Fade>
               </a>
-              <a href="">
+              <a href="https://t.me/pepefunds">
 
                 <Fade up delay={600}>
                   <FaTelegram size={90}
