@@ -9,7 +9,7 @@ export default function Footer() {
     <footer>
 
       <div className="text-center py-6">
-        <p className="text-black">© 2023 by PEPE. All rights reserved!</p>
+        <p className="text-black">© 2023 by PEPE FUNDS. All rights reserved!</p>
 
       </div>
     </footer>

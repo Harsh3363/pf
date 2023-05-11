@@ -13,7 +13,10 @@ export default function PartnerSection() {
           <div className="text-center mb-4">
             {/* <p className='text-silver text-xs'>OUR FRIENDS</p> */}
             <h2 className="text-3xl font-bold text-left">
-              <u className="text-green"> CONTACT</u>
+              <center>
+
+              <u className="text-green text-centre"> CONTACT </u>
+              </center>
             </h2>
             {/* <p className='text-gray'>We're partners with countless major organisations around the globe</p> */}
           </div>
@@ -39,7 +42,7 @@ export default function PartnerSection() {
                 </Fade>
               </a>
             </div>
-            <div className="mt-4 mb-8 text-center">
+            {/* <div className="mt-4 mb-8 text-center">
               <h5 className="text-black text-xl"> $pepe coin has no association with Matt Furie or his creation Pepe the Frog. <br />
                This token is simply paying homage to a meme we all love and recognize.
               </h5> <br />
@@ -47,8 +50,7 @@ export default function PartnerSection() {
               $PEPE is a meme coin with no intrinsic value or expectation of financial return. <br />
                There is no formal team or roadmap. the coin is completely useless and for entertainment purposes only.
               </h5>
-              {/* <p className="text-white">bank transfers or your credit/debit card.</p> */}
-            </div>
+            </div> */}
           </div>
         </div>
 

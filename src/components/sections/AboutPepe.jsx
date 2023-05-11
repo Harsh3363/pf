@@ -19,9 +19,11 @@ export default function AboutPepe() {
         <div className="flex items-center">
           <div className="max-w-xl">
             <h2 className="font-bold text-6xl mb-6 leading-normal">ABOUT<br /> </h2>
-            <p className="text-white mb-6 text-xl">Pepe is tired of watching everyone play hot potato with the endless derivative ShibaCumGMElonKishuTurboAssFlokiMoon Inu coins. The Inu’s have had their day. It’s time for the most recognizable meme in the world to take his reign as king of the memes.
-
-              Pepe is here to make memecoins great again. Launched stealth with no presale, zero taxes, LP burnt and contract renounced, $PEPE is a coin for the people, forever. Fueled by pure memetic power, let $PEPE show you the way..</p>
+            <p className="text-white mb-6 text-xl">$Pepe, the most iconic meme in the world,
+             is tired of witnessing everyone indulge in the never-ending frenzy of derivative ShibaCumGMElonKishuTurboAssFlokiMoon Inu coins.
+             The Inu coins have had their time in the spotlight, and now $Pepe funds is ready to reclaim his position as the king of memes.
+              With a stealthy launch, devoid of any presale.$Pepe funds emerges as a cryptocurrency designed for the people, destined to endure.
+             Powered by the sheer force of memetic influence, $Pepe funds aims to guide you on a remarkable journey.</p>
             <p className="text-white mb-6">
               
             </p>

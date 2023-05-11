@@ -54,10 +54,10 @@ body::before {
 .text-blue-gradient {
   background: -webkit-linear-gradient(
     283deg,
-    #a3ffad,
-    #76cc7e,
+    #0ee427,
+    #a2d0a7,
     #43eb5a,
-    #7ff98b
+    #106418
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

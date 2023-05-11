@@ -2,7 +2,7 @@ import React from 'react';
 // import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
 import { Timeline } from 'react-twitter-widgets';
 import { Fade } from 'react-reveal';
-import pepe4 from '@/images/pepe4.webp';
+import pepe7 from '@/images/pepe7.png';
 
 export default function Tokenomics() {
   return (
@@ -10,7 +10,7 @@ export default function Tokenomics() {
       <div className="grid md:grid-cols-2">
         <div>
           <Fade up>
-            <img src={pepe4} alt="" />
+            <img src={pepe7} alt="" width={1000}/>
           </Fade>
         </div>
         <div className="flex justify-center">

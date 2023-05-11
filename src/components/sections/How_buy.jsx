@@ -1,7 +1,9 @@
 import React from 'react';
+import brise from "../../../src/images/brise.png";
+import bitgert from "../../../src/images/bitgert.png";
+import switchb from "../../../src/images/switchb.png";
 
 export default function How_buy() {
-
 
     return (
         <section className="container mx-auto py-32">
@@ -21,31 +23,31 @@ export default function How_buy() {
                             </div>
                         </div>
                         <div className="max-w-sm bg-transparent m-5 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-white">
-                            <img className="rounded-t-lg mx-auto pt-5 mt-10" src="https://static.wixstatic.com/media/1f3f2b_48f30828b7d740d98efb1a2f8febc010~mv2.png/v1/fill/w_173,h_173,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Untitled%20design%20-%202023-03-30T213620_680.png" alt="" />
+                            <img className="rounded-t-lg mx-auto pt-5 mt-10" width={200} src={brise} alt="" />
                             <div className="p-5">
                                 <a href="#" className="mb-2 text-2xl font-bold tracking-tight text-white dark:white">
 
-                                        <h2 className='text-3xl text-center m-2'>Get Some ETH</h2>
+                                        <h2 className='text-3xl text-center m-2'>Get Some BRISE</h2>
                                 </a>
-                                <p className="mb-3 font-normal text-white dark:text-white">have ETH in your wallet to switch to $PEPE. If you don’t have any ETH, you can buy directly on metamask, transfer from another wallet, or buy on another exchange and send it to your wallet.</p>
+                                <p className="mb-3 font-normal text-white dark:text-white">have BRISE in your wallet to switch to $PEPE FUNDS. If you don’t have any BRISE, transfer from another wallet, or buy on another exchange and send it to your wallet.</p>
                             </div>
                         </div>
                         <div className="max-w-sm bg-transparent m-5 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-white">
-                            <img className="rounded-t-lg mx-auto pt-5 mt-10" src="https://static.wixstatic.com/media/1f3f2b_9d0d4341170c4640b3663065417b3700~mv2.png/v1/fill/w_173,h_173,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/uniswap%20(2).png" alt="" />
+                            <img className="rounded-t-lg mx-auto pt-5 mt-10" src={bitgert} alt="" />
                             <div className="p-5">
                                 <a href="#" className="mb-2 text-2xl font-bold tracking-tight text-white dark:white">
-                                        <h2 className='text-3xl text-center m-2'>Go to Uniswap</h2>
+                                        <h2 className='text-3xl text-center m-2'>Go to BITGERT SWAP</h2>
                                 </a>
-                                <p className="mb-3 font-normal text-white dark:text-white">connect to Uniswap. Go to app.uniswap.org in google chrome or on the browser inside your Metamask app. Connect your wallet. Paste the $PEPE token address into Uniswap, select Pepe, and confirm. When Metamask prompts you for a wallet signature, sign.</p>
+                                <p className="mb-3 font-normal text-white dark:text-white">connect to Bitgert Swap. Go to <a href="http://bitgertswap.com">bitgertswap.com</a>  in google chrome or on the browser inside your Metamask app. Connect your wallet. Paste the $PEPE FUNDS token address into Bitgert Swap, select Pepe Funds, and confirm. When Metamask prompts you for a wallet signature, sign.</p>
                             </div>
                         </div>
                         <div className="max-w-sm bg-transparent m-5 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-white">
-                            <img className="rounded-t-lg mx-auto pt-5 mt-10" src="https://static.wixstatic.com/media/1f3f2b_04aca37507ff420d94bd45bde7547fcc~mv2.png/v1/fill/w_301,h_150,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Untitled%20design%20-%202023-03-30T215146_874.png" alt="" />
+                            <img className="rounded-t-lg mx-auto pt-5 mt-10 zoom-5x" width={400} src={switchb} alt="" />
                             <div className="p-5">
                                 <a href="#" className="mb-2 text-2xl font-bold tracking-tight text-white dark:white">
-                                        <h2 className='text-3xl text-center m-2'>Switch ETH for $PEPE</h2>
+                                        <h2 className='text-xl text-center m-2'>Switch BRISE for $PEPE FUNDS</h2>
                                 </a>
-                                <p className="mb-3 font-normal text-white dark:text-white">switch ETH for $PEPE. We have ZERO taxes so you don’t need to worry about buying with a specific slippage, although you may need to use slippage during times of market volatility.</p>
+                                <p className="mb-3 font-normal text-white dark:text-white">switch BRISE for $PEPE FUNDS.Set Spillage to 8% to 12%. You may need to increase slippage during times of market volatility.</p>
                             </div>
                         </div>
                     </div>
