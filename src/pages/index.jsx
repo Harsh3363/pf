@@ -10,7 +10,8 @@ import BackToTopSection from '../components/sections/BackToTopSection';
 
 export default function index() {
   return (
-    <Layout>
+    <>
+    // <Layout>
       <FirstSection />
       <AboutPepe />
       <How_buy />
@@ -18,6 +19,7 @@ export default function index() {
       <Tokenomics />
       <PartnerSection />
       <BackToTopSection/>
-    </Layout>
+    // </Layout>
+    </>
   );
 }
