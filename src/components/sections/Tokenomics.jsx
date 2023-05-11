@@ -39,8 +39,8 @@ export default function Tokenomics() {
       </div>
       <div className=" justify-center items-center h-screen pt-20">
         <TwitterTimelineEmbed
-          sourceType="pepecoineth"
-          screenName="pepecoineth"
+          sourceType="Pepefunds"
+          screenName="Pepefunds"
           options={{ height: 800 }}
         />
       </div>
