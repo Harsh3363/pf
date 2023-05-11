@@ -1,5 +1,6 @@
 import React from 'react';
 // import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
+import { Timeline } from 'react-twitter-widgets';
 import { Fade } from 'react-reveal';
 import pepe4 from '@/images/pepe4.webp';
 
@@ -37,13 +38,18 @@ export default function Tokenomics() {
         </div>
 
       </div>
-      {/* <div className=" justify-center items-center h-screen pt-20">
-        <TwitterTimelineEmbed
-          sourceType="Pepefunds"
-          screenName="Pepefunds"
-          options={{ height: 800 }}
+      {/* <Tweet tweetId="841418541026877441" /> */}
+      <div className=" justify-center items-center h-screen pt-20">
+        <Timeline
+          dataSource={{
+            sourceType: 'profile',
+            screenName: 'Pepefunds'
+          }}
+          options={{
+            height: '800'
+          }}
         />
-      </div> */}
+      </div>
     </section>
   );
 }
