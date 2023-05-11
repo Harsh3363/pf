@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { BsList, BsX } from 'react-icons/bs';
 import { useMediaQuery } from 'react-responsive';
 
-import logo from '@/images/logo.png';
+// import logo from 'https://static.wixstatic.com/media/1f3f2b_e78823e3b50f4f76963293a9ab1e19c3~mv2.png/v1/fill/w_264,h_85,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/pepetitle.png';
 import Menus from './Menus';
 
 export default function Navbar() {
@@ -50,7 +50,7 @@ export default function Navbar() {
     })}>
       <div className="px-4 container mx-auto top-0 flex justify-between items-center">
         <div className="flex items-center">
-          <a href="/"><img src={logo} className="mr-6" alt="logo" width="100" height="100" />PepeFund</a>
+          <a href="/"><img src='https://static.wixstatic.com/media/1f3f2b_e78823e3b50f4f76963293a9ab1e19c3~mv2.png/v1/fill/w_264,h_85,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/pepetitle.png' className="mr-6" alt="logo" width="100" height="100" />PepeFund</a>
         </div>
           <div className='hidden mx-4 gap-8 xl:flex justify-end'>
             <Menus />
