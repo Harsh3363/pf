@@ -15,7 +15,7 @@ export default function index() {
       <AboutPepe />
       <How_buy />
       <Roadmap/>
-      {/* <Tokenomics /> */}
+      <Tokenomics />
       <PartnerSection />
       <BackToTopSection/>
     </Layout>
