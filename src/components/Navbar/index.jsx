@@ -26,7 +26,7 @@ export default function Navbar() {
 
   const handleBlackScreenClick = (e) => {
     e.stopPropagation();
-    setDropdownOpen(false);
+    setDropdownOpen(true);
   };
 
   useEffect(() => {
@@ -55,15 +55,7 @@ export default function Navbar() {
           <div className='hidden mx-4 gap-8 xl:flex justify-end'>
             <Menus />
           </div>
-        {/* <div className="hidden gap-4 md:flex">
-          <SecondaryButton>
-            Log In
-          </SecondaryButton>
-          <PrimaryButton>
-            Sign Up
-          </PrimaryButton>
-        </div> */}
-        <div className="md:hidden text-2xl">
+        <div className="xl:hidden text-2xl">
           <button className="z-50 p-4 block transition-all" onClick={() => setDropdownOpen(!dropdownOpen)}>
             {dropdownOpen ?
               <BsX />
@@ -72,7 +64,6 @@ export default function Navbar() {
             }
           </button>
 
-          {/* Menu dropdown */}
           <div className={classNames({
             'text-base left-0 top-full right-0 absolute transition-all duration-400': true,
             'invisible opacity-0': !dropdownOpen,
@@ -80,14 +71,6 @@ export default function Navbar() {
           })}>
             <div className="h-screen left-0 bg-black bg-opacity-30" onClick={handleBlackScreenClick}>
               <div className="z-20 shadow-xl bg-white p-6">
-                {/* <div className="gap-4 flex mb-6">
-                  <SecondaryButton className="w-full">
-                    Log In
-                  </SecondaryButton>
-                  <PrimaryButton className="w-full">
-                    Sign Up
-                  </PrimaryButton>
-                </div> */}
                 <div className="mb-4">
                   <Menus />
                 </div>
