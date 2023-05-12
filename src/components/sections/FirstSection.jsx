@@ -32,21 +32,21 @@ export default function HeroSection() {
               {/* <p className="text-white">bank transfers or your credit/debit card.</p> */}
             </div>
             <div className="col-span-2 lg:flex gap-4 lg:mb-12">
-              <SecondaryButton className="w-full lg:w-auto mb-2 lg:mb-0">
                 <a href="https://bitgertswap.com/#swap/0x96Affc91E1aaf1067A30CC4d04Fe0C56181376c9">
+              <SecondaryButton className="w-full lg:w-auto mb-2 lg:mb-0">
                 Buy Now 
-                </a>
               </SecondaryButton>
-              <SecondaryButton className="w-full lg:w-auto mb-2 lg:mb-0">
+                </a>
                 <a href="https://brisescan.com/token/0x96Affc91E1aaf1067A30CC4d04Fe0C56181376c9">
-                  Contract
-                </a>
-              </SecondaryButton>
               <SecondaryButton className="w-full lg:w-auto mb-2 lg:mb-0">
-                <a href="https://www.dextools.io/app/en/bitgert/pair-explorer/0xadfa02ba357b8f3fa83dd63206fb5d3c999bdc26">
-                Charts 
-                </a>
+                  Contract
               </SecondaryButton>
+                </a>
+                <a href="https://www.dextools.io/app/en/bitgert/pair-explorer/0xadfa02ba357b8f3fa83dd63206fb5d3c999bdc26">
+              <SecondaryButton className="w-full lg:w-auto mb-2 lg:mb-0">
+                Charts 
+              </SecondaryButton>
+                </a>
             </div>
           </div>
         </div>

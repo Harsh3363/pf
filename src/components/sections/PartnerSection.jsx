@@ -6,7 +6,7 @@ import { FaTelegram } from 'react-icons/fa'
 
 export default function PartnerSection() {
   return (
-    <section className="px-6 pt-10">
+    <section className="px-6 pt-10 mt-10">
       <div className='rounded-3xl bg-gradient-to-b from-[#dafadd] to-[#e6fce8] '>
 
         <div className="container mx-auto">
